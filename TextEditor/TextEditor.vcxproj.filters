@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{54f1c307-4f3f-43b1-a463-bdfd9feb9a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TextEditor">
+      <UniqueIdentifier>{8a9ee9c7-b0a5-4786-9bb4-4e560b7597fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TextEditor\EditroController">
+      <UniqueIdentifier>{f360af57-290e-4cf4-bd42-151990439463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TextEditor\text">
+      <UniqueIdentifier>{3ab497a0-47a2-43b2-888f-de3437579de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TextEditor\Cursor">
+      <UniqueIdentifier>{63e71951-5898-4d29-aace-5e1c8155007d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TextEditor\FileIOService">
+      <UniqueIdentifier>{d102cf09-44de-4a1c-b045-b0f2ebb415aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Singlton">
+      <UniqueIdentifier>{b6312264-c390-45e0-9254-bf6b50465596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ErrorCode">
+      <UniqueIdentifier>{e4d0df3a-e33a-4165-b8a8-620be26a02ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TextEditor\ConsoleService">
+      <UniqueIdentifier>{0fe88cbf-8045-49ae-bb26-d6a59b3f5a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TextEditor\InputService">
+      <UniqueIdentifier>{da40df36-737d-47bf-ae55-b265f88ff614}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextEditor\EditorController\editor_controller.cpp">
+      <Filter>src\TextEditor\EditroController</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextEditor\Text\text.cpp">
+      <Filter>src\TextEditor\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextEditor\Cursor\cursor.cpp">
+      <Filter>src\TextEditor\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Singlton\singlton.cpp">
+      <Filter>src\Singlton</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextEditor\FileIOService\file_io_service.cpp">
+      <Filter>src\TextEditor\FileIOService</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ErrorCode\result_displayer.cpp">
+      <Filter>src\ErrorCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextEditor\InputService\input_service.cpp">
+      <Filter>src\TextEditor\InputService</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextEditor\ConsoleService\console_service.cpp">
+      <Filter>src\TextEditor\ConsoleService</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\TextEditor\EditorController\editor_controller.h">
+      <Filter>src\TextEditor\EditroController</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextEditor\Text\text.h">
+      <Filter>src\TextEditor\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextEditor\Cursor\cursor.h">
+      <Filter>src\TextEditor\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Singlton\singlton.h">
+      <Filter>src\Singlton</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextEditor\FileIOService\file_io_service.h">
+      <Filter>src\TextEditor\FileIOService</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ErrorCode\result_displayer.h">
+      <Filter>src\ErrorCode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextEditor\InputService\input_service.h">
+      <Filter>src\TextEditor\InputService</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextEditor\ConsoleService\console_service.h">
+      <Filter>src\TextEditor\ConsoleService</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
